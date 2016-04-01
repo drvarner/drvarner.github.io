@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <title>Path to Glory Name Generator</title>
+   <link href="css/main.css" rel="stylesheet">
+
+   <script src="js/jquery-1.12.1.js"></script>
+</head>
+
+<body>
+   <h1>Path to Glory</h1>
+   <h4>Name Generator</h4>
+   <div class="radio-group">
+      <h2>Choose a Patron God</h2>
+      <input type="radio" name="god" value="1" checked="checked"> Chaos Undivided</input><br>
+      <input type="radio" name="god" value="2"> Khorne</input><br>
+      <input type="radio" name="god" value="3"> Tzeentch</input><br>
+      <input type="radio" name="god" value="4"> Nurgle</input><br>
+      <input type="radio" name="god" value="5"> Slaanesh</input>
+   </div>
+   <div id="generate">Generate!</div>
+   <div id="display-name">
+      <p>Select a god and click 'Generate'!</p>
+   </div>
+
+   <script src="js/name_gen.js"></script>
+   <script src="data/data.js"></script>
+</body>
+
+</html>

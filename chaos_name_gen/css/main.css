@@ -1,0 +1,51 @@
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+html {
+   font-family: "Helvetica", "Arial", sans-serif;
+   text-align: center;
+}
+
+body {
+   margin: 0;
+}
+
+#generate {
+   color: #ffffff;
+   font-weight: bold;
+   background-color: #2323ee;
+   max-width: 150px;
+   cursor: pointer;
+   margin: 2em auto;
+   padding: 1em;
+   border-radius: 4px;
+   border: solid 1px #aaaaaa;
+   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+#generate:hover {
+   background-color: #4545ff;
+}
+
+.radio-group {
+   text-align: left;
+   border: solid 1px #adadad;
+   border-radius: 2px;
+   max-width: 300px;
+   padding: 1em;
+   margin: 0 auto;
+   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+.radio-group h2 {
+   text-align: center;
+}
+
+.radio-group input {
+   margin-left: 25%;
+}
